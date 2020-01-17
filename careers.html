@@ -1,0 +1,117 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+	
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="nara.css" type="text/css">
+	
+	
+	
+</head>
+<body>
+  <div class="fixed-top">
+    <div id="header"> 
+        <a href="index - Copy.html"><img src="rbLh7dZHTz2Jv7y6eigO_logo.png" alt="logo" style="width: 380px; height:50px;" id="logo"></a>
+        <ul>
+          <li class="menu" id="menu"><a>ORDERS  <span>0</span> <i class="fa fa-cart-plus" aria-hidden="true" id="mainCartIcon"></i> </a></li>
+        <li class="menu"><a href="experience.html">EXPERIENCE</a></li>
+        <li class="menu" id="dropwn"><a>MENUS <i class="fa fa-angle-down" aria-hidden="true"></i></a> 
+          <div class="dropdown-content" id="myDropdown">
+          <a href="scottsdale.html">SCOTTSDALE<br> DINNER MENU</a>
+          <a href="losangeles.html">LOS ANGELES<br> DINNER MENU</a>
+          <a href="vegan.html">VEGAN DINNER <br>MENU</a>
+          <a href="dulces.html">DULCES</a>
+          <a href="cocktails.html">BRUNCH COCKTAIL</a>
+        </div></li>
+        
+    
+        <li class="menu" id="dropeve"><a>EVENTS<i class="fa fa-angle-down" aria-hidden="true"></i></a> 
+          <div class="dropdown-content" id="myDropdown">
+          <a href="westhollywood.html">OUR CALENDAR</a>
+          <a href="scottsdale_location.html">SCOTTSDALE</a>
+         
+        </div></li>
+    
+    
+        <li class="menu" id="droploc"><a>LOCATIONS <i class="fa fa-angle-down" aria-hidden="true"></i></a> 
+            <div class="dropdown-content" id="myDropdown">
+            <a href="westhollywood.html">WEST HOLLYWOOD</a>
+            <a href="scottsdale_location.html">SCOTTSDALE</a>
+           
+          </div></li>
+        <li class="menu"><a href="careers.html">CAREERS</a></li>
+      <li class="menu" id="res1"><a href="reservations.html">RESERVATIONS</a></li>
+        
+      
+    </ul>
+    </div>
+    </div>
+
+<div id="backgroundMasks">
+    <!-- <img src="hli1ImrwQCqEQymXrC4g_Toca Wallpaper.jpg" width="100%"> -->
+</div>
+
+<div class="restaurant">
+    <h2>JOIN TEAM TOCA!</h2>
+    <p>Toca Madera is an escape from the mundane.  Our signature menu of modern Mexican cuisine - fresh organic<br> ingredients and diversity for every dietary preference - is married to our carefully curated music and performance<br> programming to elicit an unforgettable dining experience. Join a high-energy team that delivers a feast for the senses<br> on a nightly basis.  We strive for excellence with an elevated sense of hospitality.  We care for our team and our <br>community.  Come work in one of the most exciting restaurants in Los Angeles & Scottsdale!</p>
+<label for="name">Name</label>
+<input type="text" placeholder="Name" id="name" onclick="showLabel(event)"></input>
+<label for="email">E-mail</label>
+<input type="text" placeholder="E-mail"  id="email" onclick="showLabel(event)"></input>
+<label for="phoneNum">Phone Number</label>
+<input type="text" placeholder="Phone Number"  id="phoneNum" onclick="showLabel(event)"></input>
+<label for="location">Location</label>
+<select id="location" value="Location" onclick="showLabel(event)">
+<option value="Location">Location</option>
+<option value="West Holliwood">West Holliwood</option>
+<option value="Scottsdale">Scottsdale</option>
+</select>
+<label for="cover">Cover Letter</label>
+<textarea rows="4" width="50%" placeholder="Cover Letter" onclick="showLabel(event)" id="cover">
+
+    </textarea>
+
+<form action="myform.cgi"> 
+<input type="file" name="fileupload" value="fileupload" id="fileupload"> 
+
+<label for="fileupload"> Select a file to upload</label> <br>
+ 
+ <span class="menu" id="apply"><a>APPLY</a></span>
+   
+</div>
+
+<footer id="footer">
+    <div id="icons">
+    
+    <a><i class="fab fa-facebook-f"></i></a>
+    <a><i class="fab fa-instagram"></i></a>
+    <a><i class="fab fa-foursquare"></i></a>
+    <a><i class="far fa-envelope"></i></a>
+      
+    
+    </div>
+    <div id="contact">
+    <ul>
+    <li class="contact">CONTACT US</li>
+    <li class="contact">KNOW BEFORE YOU GO</li>
+    <li class="contact"id="news">JOIN OUR NEWSLETTER</li> 
+    
+    </ul>
+    </div>
+    
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="nara.js"></script>
+</body>
+</html>
